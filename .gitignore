@@ -1,0 +1,37 @@
+# Données sensibles — JAMAIS commit
+samples/
+*.xlsx
+*.xls
+*.csv
+*.pdf
+
+# Secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+credentials.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editeurs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Node / npm (si on en ajoute plus tard)
+node_modules/
+npm-debug.log*
+
+# Python (si on en ajoute plus tard)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# N8N local data
+.n8n/
